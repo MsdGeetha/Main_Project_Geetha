@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Suite">
+  <test thread-count="1" parallel="tests" name="Test">
+    <classes>
+      <class name="contacts_module.Delete_Contacts_Created_Test"/>
+      <class name="opportunity_module.Delete_The_Opportunities_Created"/>
+      <class name="lead_module.Delete_The_Leads_Created"/>
+      <class name="campaign_module.Delete_Campaign"/>
+      <class name="organization_module.Delete_The_Organization_Created_Test"/>
+<!--       <class name="product_module.Delete_The_Product_Created"></class> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

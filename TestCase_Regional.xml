@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Suite">
+<listeners>
+<listener class-name="generic_libraries.ListenerImplementationClass"></listener>
+</listeners>
+  <test thread-count="1" parallel="tests" name="Test">
+    <classes>
+      <class name="contacts_module.TestNG_Creating_Contacts_Test">
+      	<methods>
+	      	<exclude name="createContacts"></exclude>
+	      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

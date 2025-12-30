@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Advance_Selenium by packages]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="data_driven_testing(failed)">
+    <classes>
+      <class name="data_driven_testing.ReadDataFromXml_Test">
+        <methods>
+          <include name="readXmlFile" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- data_driven_testing.ReadDataFromXml_Test -->
+    </classes>
+  </test> <!-- data_driven_testing(failed) -->
+</suite> <!-- Failed suite [Advance_Selenium by packages] -->

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="5" parallel="tests" name="Suite">
+<listeners>
+<listener class-name="generic_libraries.ListenerImplementationClass"></listener>
+</listeners>
+  
+  <test name="Organization">
+    <classes>
+      <class name="organization_module.TestNG_Creating_Org_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Contacts">
+    <classes>
+      <class name="contacts_module.TestNG_Creating_Contacts_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Products">
+    <classes>
+      <class name="product_module.TestNG_Creating_New_Product_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Campaigns">
+    <classes>
+      <class name="campaign_module.TestNG_Creating_Campaigns_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="Leads">
+    <classes>
+      <class name="lead_module.TestNG_New_Lead_Test"/>
+      <class name="lead_module.TestNG_SearchLead_Test"/>
+      <class name="lead_module.TestNG_E2E_Lead_Conversion_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Opportunity">
+    <classes>
+      <class name="opportunity_module.TestNG_Opportunity_with_Product_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
